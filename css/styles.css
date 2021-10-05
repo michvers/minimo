@@ -1,0 +1,95 @@
+*{
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: ;sans-serif;
+    font-size:15.35px;
+    color: rgba(151,151,151,1);
+    width:1250px;
+    /*background:red;*/
+    margin: 0 auto;
+}
+
+/*FLEXBOX CSS*/
+.d-flex{
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify.content.around{
+    justify-content: space-around
+}
+.align-items-center{
+    align-items:center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.w-25{
+    width:25%;
+}
+.w-50{
+    width:50%;
+}
+.w-75{
+    width:75%;
+}
+.w-100{
+    width:100%;
+}
+
+
+/*NAVIGATIE*/
+#navbar{
+    padding-top:20.156px;
+    padding-bottom:20.156px;
+}
+/*LOGO*/
+#brand img{
+    height:40px;
+    width:40px;
+    margin-left:120px;
+}
+#brandname{
+    margin-left:15px;
+    font-size:42.35px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:rgba(0,0,0,1);
+}
+nav{
+
+}
+nav ul li{
+    padding-right:40px;
+    list-style:none;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#6c6c6c;
+    font-size:20.35px;
+}
+nav ul li a:hover{
+    border-bottom:3px solid #5094f2;
+    padding-bottom:15px;
+}
