@@ -2,22 +2,22 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Michiel Verschaeve" >
-    <meta name="description" content="Minimo site">
-    <meta name="keywords" content="HTML5,CSS3,FLEXBOX,POSITIONING">
+    <meta content="Michiel Verschaeve" name="author">
+    <meta content="Minimo site" name="description">
+    <meta content="HTML5,CSS3,FLEXBOX,POSITIONING" name="keywords">
     <title>Minimo</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <div id="navbar" class="d-flex w-100">
-        <div id="brand" class="d-flex w-50 .align-items-center">
+    <div class="d-flex w-100" id="navbar">
+        <div class="d-flex w-50 .align-items-center" id="brand">
             <p id="brandname">Minimo</p>
         </div>
         <nav class="d-flex w-50">
@@ -30,7 +30,64 @@
             </ul>
         </nav>
     </div>
-        <img src="images/backgroundheader.png" class="justify-content:center">
 </header>
+<main>
+    <section>
+        <img alt="achtergrond" id="achtergrondfoto" src="images/backgroundheader.png">
+        <h3>The perfect weekend getaway</h3>
+        <h2>Photodiary</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur culpa delectus dolore dolorem
+            earum et facere fuga, hic iusto maxime minus odit perspiciatis provident quo sequi tempore voluptas
+            voluptatibus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium animi
+            consequatur, culpa eius error id inventore, ipsa laboriosam laudantium nesciunt officia praesentium quaerat
+            quasi quibusdam tempora temporibus voluptas voluptates!lorem Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Et ipsa minus mollitia officiis, porro quod sed voluptatem! Consequatur deleniti dolor
+            eligendi est id incidunt inventore, magnam omnis provident ratione tempora?</p>
+        <p>Leave a comment</p>
+    </section>
+    <section>
+        <div class="d-flex justify-content-around" id="articles1">
+        <article>
+            <img id="foto1" src="images/image1.png">
+            <h3>Lifestyle</h3>
+            <h2>More than just a music festival</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda excepturi harum impedit maiores
+                molestiae natus nobis obcaecati quo sint. Eius enim, laudantium necessitatibus ratione sit vitae.
+                Laborum, libero, molestias.</p>
+        </article>
+        <article>
+            <img id="foto2" src="images/image2.png">
+            <h3>lifestyle</h3>
+            <h2>Life tastes better with coffee</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi architecto commodi cum, error ex
+                facilis illum libero mollitia nostrum pariatur quae quas quos recusandae reiciendis, rem rerum saepe
+                tempore.</p>
+        </article>
+        </div>
+        <div class="d-flex justify-content-around" id="articles2">
+        <article>
+            <img id="foto3" src="images/image3.png">
+            <h3>Photodiary</h3>
+            <h2>American dream</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque numquam, temporibus? Ad adipisci aut,
+                beatae consequuntur doloribus eos excepturi expedita iure libero maiores, nisi obcaecati officiis, omnis
+                optio tenetur voluptates.</p>
+        </article>
+        <article>
+            <img id="foto4" src="images/image4.png">
+            <h3>Photodiary</h3>
+            <h2>A day exploring the Alps</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti dolorem ea expedita fuga
+                obcaecati perferendis veritatis? Ad debitis hic, illo in labore neque nihil officia placeat quae quod
+                sed?</p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <p>Sign up for our newsletter!</p>
+            <input type="email"><br>
+        </article>
+    </section>
+</main>
 </body>
 </html>

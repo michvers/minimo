@@ -35,7 +35,7 @@ body{
 .justify-content-between{
     justify-content:space-between;
 }
-.justify.content.around{
+.justify-content-around{
     justify-content: space-around
 }
 .align-items-center{
@@ -64,11 +64,6 @@ body{
     padding-bottom:20.156px;
 }
 /*LOGO*/
-#brand img{
-    height:40px;
-    width:40px;
-    margin-left:120px;
-}
 #brandname{
     margin-left:70px;
     font-size:42.35px;
@@ -81,7 +76,7 @@ nav{
 
 }
 nav ul li{
-    padding-right:40px;
+    padding-right:70px;
     list-style:none;
     margin-top:70px;
 }
@@ -93,4 +88,7 @@ nav ul li a{
 nav ul li a:hover{
     border-bottom:3px solid #5094f2;
     padding-bottom:15px;
+}
+#achtergrondfoto{
+    width:1250px;
 }
