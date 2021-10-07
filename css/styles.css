@@ -92,3 +92,49 @@ nav ul li a:hover{
 #achtergrondfoto{
     width:1250px;
 }
+#photodiary{
+    width:900px;
+}
+#photodiaryuitlijnen{
+    margin-left:150px;
+    margin-top: 100px;
+    margin-bottom: 135px;
+}
+#newsletter{
+    background:#f0f0f0;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-left:20px;
+}
+
+#newslettertekst{
+    font-size:40px;
+    color:#333333;
+    margin-left:350px;
+}
+#foto1{
+    width:420px;
+}
+#mailbox{
+    width:202px;
+    margin: 0 auto;
+}
+#newsletterknop{
+    width:500px;
+}
+#articles3{
+    margin-top:100px;
+}
+#loadmoreknop{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+#linkerfooter{
+    font-family: myriad,sans-serif;
+    color: #333333;
+    margin-left: 20px;
+}
+#footer{
+    background: #f0f0f0;
+    padding-top: 50px;
+}
