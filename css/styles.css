@@ -1,16 +1,25 @@
 *{
     box-sizing:border-box;
 }
-#font-face {
-    font-family: 'Inconsolata', monospace;
+@font-face {
+    font-family: Inconsolata, sans-serif;
+}
+@font-face {
+    font-family: PlayfairDisplay, sans-serif;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: Ubuntu-Light, sans-serif;
+    src: url('../fonts/Ubuntu-Light.ttf');
 }
 body{
-    font-family: 'Playfair Display', serif;
-    font-size:15.35px;
-    color: rgba(151,151,151,1);
-    width:1250px;
-    /*background:red;*/
+    width:1200px;
+    font-family: PlayfairDisplay, sans-serif;
     margin: 0 auto;
+    color: #626262;
+}
+footer{
+    width:1200px;
 }
 
 /*FLEXBOX CSS*/
@@ -59,82 +68,152 @@ body{
 
 
 /*NAVIGATIE*/
-#navbar{
-    padding-top:20.156px;
-    padding-bottom:20.156px;
+body header h1{
+    font-family: Inconsolata;
 }
-/*LOGO*/
-#brandname{
-    margin-left:70px;
-    font-size:42.35px;
-    margin-top:70px;
-    margin-bottom:0px;
-    color:rgba(0,0,0,1);
-}
-
 nav{
 
 }
 nav ul li{
-    padding-right:70px;
+    padding-left:100px;
     list-style:none;
-    margin-top:70px;
+    padding-top: 55px;
 }
 nav ul li a{
     text-decoration:none;
     color:#6c6c6c;
-    font-size:20.35px;
+    font-size:14pt;
+    font-family: PlayfairDisplay;
 }
-nav ul li a:hover{
-    border-bottom:3px solid #5094f2;
-    padding-bottom:15px;
+nav ul li a:hover {
+    border-bottom: 3px solid #5094f2;
+    padding-bottom: 5px;
 }
+#navbar header{
+    margin-top: 40px;
+}
+/*NAVIGATIE END*/
+/*Section One*/
 #achtergrondfoto{
-    width:1250px;
+    padding-left: 50px;
+    width:1200px;
 }
 #photodiary{
-    width:900px;
+    padding-top: 90px;
 }
-#photodiaryuitlijnen{
-    margin-left:150px;
-    margin-top: 100px;
-    margin-bottom: 135px;
+main section article{
+    padding-left: 80px;
+    padding-right: 80px;
 }
-#newsletter{
-    background:#f0f0f0;
-    padding-top: 50px;
+main section article header h3{
+    font-size: 14pt;
+}
+main section article header h2{
+    font-size: 30pt;
+}
+#comment{
+   padding-top:30px;
+    font-family: Ubuntu-Light;
+    font-size: 14pt;
+}
+/*END SECTION ONE*/
+/*START SECTION TWO*/
+#sectiontwo{
+    padding-top: 110px;
+}
+h3{
+    font-family: Ubuntu-Light;
+    font-size: 14pt;
+}
+h2{
+    font-family: PlayfairDisplay;
+    font-size: 25pt;
+}
+#articles{
+    padding-top: 150px;
+}
+/*END SECTION TWO*/
+/*START SECTION NEWSLETTER*/
+#nieuwsbrief{
+    background-color: #f0f0f0;
+    margin-top: 120px;
     padding-bottom: 70px;
-    padding-left:20px;
+    padding-top: 70px;
 }
-
-#newslettertekst{
-    font-size:40px;
-    color:#333333;
-    margin-left:350px;
+#formmail{
+    border-bottom:1px solid #626262;
+    color:#626262;
 }
-#foto1{
-    width:420px;
-}
-#mailbox{
-    width:202px;
+#nieuwsbriefbox{
+    width:365px;
     margin: 0 auto;
 }
-#newsletterknop{
-    width:500px;
+
+#formmail > input[type=email]{
+    border:0px;
+    background:#f0f0f0;
 }
-#articles3{
-    margin-top:100px;
+#formmail > button{
+    border:0px;
+    background:#f0f0f0;
 }
-#loadmoreknop{
-    margin-top: 160px;
-    margin-bottom: 100px;
+
+/*END SECTION NEWSLETTER*/
+/*START SECTION THREE*/
+#sectionthree{
+    padding-top: 120px;
 }
-#linkerfooter{
-    font-family: myriad,sans-serif;
-    color: #333333;
-    margin-left: 20px;
+
+#load{
+    margin:235px 0px 1350px 0px;
 }
-#footer{
+#load button{
+    border-radius: 0px;
+    border-style: none;
+    border: 1px solid black;
+    background: white;
+    padding: 10px;
+    font-size: 20pt;
+    font-family: PlayfairDisplay;
+}
+/*END SECTION THREE*/
+
+/*START FOOTER*/
+/*
+#footbar{
+    background-color: #f0f0f0;
+    padding-left: 150px;
+    padding-right: 67px;
+    margin-top: 1000px;
+}
+#footbarlinks{
+
+}
+#footbarlinks a{
+    padding-right: 18px;
+    color: #626262;
+}
+#footbarrechts{
+
+}
+*/
+footer{
     background: #f0f0f0;
-    padding-top: 50px;
+    color: #626262;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 14pt;
 }
+footer a{
+    color: #626262;
+    text-decoration:none;
+}
+#terms{
+    padding-left:50px;
+}
+#social > *{
+    padding:0px 10px;
+}
+
+/*END FOOTER*/
